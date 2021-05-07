@@ -99,8 +99,10 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 > 가정 : 4명의 사람이 각각 branch를 통해 Markdown 튜토리얼의 1/4를 맡아서 프로젝트를 진행한다.
 
+</br>
+
 > 현재 상태 : 4명이 main에서 branch를 만들어 Markdown 튜토리얼의 조각을 만든 상태. 즉, branch가 main, 위에서 만든 markdown, 각자의 branch 4개로 총 6개인 상태이다.
->>>>>>> part1
+> part1
 
 </br>
 
@@ -125,6 +127,30 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 ## 5.2 다른 branch 가져오기 - rebase편
 
 ### - 명령어 **rebase**
-**rebase**도 한 branch에서 다른 branch로 합치는 방법 중 하나이다. merge보다 깔끔해지기 때문에 보통 협업할 때 많이 사용한다.
+**rebase**도 한 branch에서 다른 branch로 합치는 방법 중 하나이다.  
+ merge보다 깔끔해지기 때문에 보통 협업할 때 많이 사용한다.
 
 > 현재 상태 : rebase로 markdown을 main에 불러온 상태
+
+</br>
+
+---
+
+</br>
+
+이제 프로젝트는 끝이 났지만 몇 개의 Git 명령어들을 더 살펴보겠다.
+
+## 6. About log
+
+### - 명령어 **log**
+**log**는 commit 히스토리를 조회하는 명령어이다.  
+**git log**를 실행하면 commit 히스토리가 출력된다.
+
+이 명령어를 실행하면 터미널에 더 이상 입력이 되지 않는데, 이 때 ;+q를 누르면 돌아온다.
+
+## 7. About reset--hard
+
+### - 명령어 **reset--hard**
+**reset--hard**는 되돌리는 것이 불가능한 삭제 명령어이다. 되돌릴 수 없기 때문에 신중하게 해야 한다. 
+**git reset (commit 일련번호의 앞 여섯자리) --hard**
+
