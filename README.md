@@ -101,3 +101,14 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 > 현재 상태 : 4명이 main에서 branch를 만들어 Markdown 튜토리얼의 조각을 만든 상태. 즉, branch가 main, 위에서 만든 markdown, 각자의 branch 4개로 총 6개인 상태이다.
 
+</br>
+
+## 5. 다른 branch 가져오기
+
+### - 명령어 **merge**
+**merge**는 다른 branch에서 일어난 변화를 가져오는 명령어이다.
+가져오고 싶은 branch에서 **git merge (변화를 가져올 branch 이름)** 명령을 실행하면 된다.
+
+보통 Hotfix를 해야하는 상황에서 쓰인다.
+
+> 현재 상태 : 지금 현재 4명의 Markdown 튜토리얼 조각들이 흩어져 있으므로 markdown branch에 4개의 branch를 merge하여 그 내용들을 순서대로 markdown branch에 붙여넣었다.
