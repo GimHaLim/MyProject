@@ -175,3 +175,4 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 **pull**을 실행하면 원격 저장소의 변경된 데이터를 가져올 수 있다.
 **git pull origin main**을 하면 origin의 내용이 main으로 복사된다.
 
+> 현재 상태 : markdown branch에서 test.md를 만들고, main branch에서 pull하여 test.md를 불러왔다.
