@@ -175,4 +175,3 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 **pull**을 실행하면 원격 저장소의 변경된 데이터를 가져올 수 있다.
 **git pull origin main**을 하면 origin의 내용이 main으로 복사된다.
 
-> GitHub에서 변경하면 되는 줄 알고 했다가 아니어서 다시 고친 이력이 있다.
