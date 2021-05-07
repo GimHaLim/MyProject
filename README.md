@@ -181,21 +181,29 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 > 현재 상태 : markdown branch에서 test.md를 만들고, main branch에서 pull하여 test.md를 불러왔다.
 
+</br>
+
+---
+
+</br>
+
+## Usage Table
+
 | Git 명령어 | 사용 여부 | 링크 |
 | :------: | :-------: | :------: |
-|add| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-add |
-|branch| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-branch |
-|checkout| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-checkout |
-|clone| O |
-|commit| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-commit |
-|config| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-config |
-|init| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-init |
-|log| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-log |
-|merge| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-merge |
-|pull| O |
-|push| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-push |
-|rebase| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-rebase |
-|remote| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-remote |
-|reset--hard| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-reset--hard |
-|status| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-status |
-|tag| O | https://github.com/GimHaLim/MyProject#%EB%AA%85%EB%A0%B9%EC%96%B4---tag |
+|add| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-add) |
+|branch| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-branch) |
+|checkout| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-checkout) |
+|clone| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-clone) |
+|commit| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-commit) |
+|config| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-config) |
+|init| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-init) |
+|log| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-log) |
+|merge| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-merge) |
+|pull| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-pull) |
+|push| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-push) |
+|rebase| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-rebase) |
+|remote| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-remote) |
+|reset--hard| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-reset--hard) |
+|status| O | [#](https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-status) |
+|tag| O | [#](https://github.com/GimHaLim/MyProject#%EB%AA%85%EB%A0%B9%EC%96%B4---tag) |
