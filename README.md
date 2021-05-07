@@ -95,11 +95,10 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 >현재 상태 : 지금까지의 내용을 commit, push하고 새로운 branch인 markdown을 만든 상태
 
-
-</br>
-
 이제 project를 원하는 대로 진행한다.
 
-> 현재 상황 : 새로운 branch 5개 (Table, TaskListItems, StrikeThrough, Autolinks, DisabledRawHTML)를 만들고 각각 작업을 한 상태
+> 가정 : 4명의 사람이 각각 branch를 통해 Markdown 튜토리얼의 1/4를 맡아서 프로젝트를 진행한다.
 
+> 현재 상태 : 4명이 main에서 branch를 만들어 Markdown 튜토리얼의 조각을 만든 상태. 즉, branch가 main, 위에서 만든 markdown, 각자의 branch 4개로 총 6개인 상태이다.
+>>>>>>> part1
 
