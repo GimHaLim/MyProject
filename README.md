@@ -104,7 +104,7 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 </br>
 
-## 5. 다른 branch 가져오기
+## 5. 다른 branch 가져오기 - merge편
 
 ### - 명령어 **merge**
 **merge**는 다른 branch에서 일어난 변화를 가져오는 명령어이다.
@@ -113,3 +113,18 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 보통 Hotfix를 해야하는 상황에서 쓰인다.
 
 > 현재 상태 : 지금 현재 4명의 Markdown 튜토리얼 조각들이 흩어져 있으므로 markdown branch에 4개의 branch를 merge하여 그 내용들을 순서대로 markdown branch에 붙여넣었다.
+
+</br>
+
+> merge를 하던 도중 confilct 오류가 나서 충돌된 코드를 수정해주었다.
+
+</br>
+
+> 현재 상태 : 아직 main에는 이 git과 github 사용법 튜토리얼 보고서만 있는 상태이고, markdown 튜토리얼이 있는 branch는 없는 상태이다.
+
+## 5.2 다른 branch 가져오기 - rebase편
+
+### - 명령어 **rebase**
+**rebase**도 한 branch에서 다른 branch로 합치는 방법 중 하나이다. merge보다 깔끔해지기 때문에 보통 협업할 때 많이 사용한다.
+
+> 현재 상태 : rebase로 markdown을 main에 불러온 상태
