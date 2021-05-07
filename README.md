@@ -165,12 +165,14 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 > 현재 상태 : tag v1.0.2 를 한 상태
 
-## 9. About pull
+## 9. clone 
+**clone**은 클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어이다.  
+**git cone (저장소 주소)**를 하면 되고, 저장소의 내용을 다운로드받고, 자동으로 init도 된다.
+
+> 현재 상태 : clone이라는 파일을 만들고 다른 VS Code 창을 열어서 clone을 실행한 상태이다.
+
+## 10. About pull
 **pull**을 실행하면 원격 저장소의 변경된 데이터를 가져올 수 있다.
 **git pull origin main**을 하면 origin의 내용이 main으로 복사된다.
 
 > GitHub에서 변경하면 되는 줄 알고 했다가 아니어서 다시 고친 이력이 있다.
-
-## 10. clone 
-**clone**은 클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어이다.  
-**git cone (저장소 주소)**를 하면 되고, 저장소의 내용을 다운로드받고, 자동으로 init도 된다.
