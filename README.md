@@ -158,7 +158,7 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 
 ## 8. About tag
 
-### 명령어 - **tag**
+### - 명령어  **tag**
 보통 저장소의 소스 버전을 간간히 표시하기 위해서 사용한다.
 **git tag (태그 이름)**으로 가볍게 태그할 수 있다.
 **git tag**로 태그 전체를 조회할 수 있다.
@@ -166,13 +166,36 @@ branch 생성과 checkout을 동시에 하려면 **git checkout -b (branch 이�
 > 현재 상태 : tag v1.0.2 를 한 상태
 
 ## 9. clone 
+
+### - 명령어 **clone**
 **clone**은 클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어이다.  
 **git cone (저장소 주소)**를 하면 되고, 저장소의 내용을 다운로드받고, 자동으로 init도 된다.
 
 > 현재 상태 : clone이라는 파일을 만들고 다른 VS Code 창을 열어서 clone을 실행한 상태이다.
 
 ## 10. About pull
+
+### - 명령어 **pull**
 **pull**을 실행하면 원격 저장소의 변경된 데이터를 가져올 수 있다.
 **git pull origin main**을 하면 origin의 내용이 main으로 복사된다.
 
 > 현재 상태 : markdown branch에서 test.md를 만들고, main branch에서 pull하여 test.md를 불러왔다.
+
+| Git 명령어 | 사용 여부 | 링크 |
+| :------: | :-------: | :------: |
+|add| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-add |
+|branch| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-branch |
+|checkout| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-checkout |
+|clone| O |
+|commit| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-commit |
+|config| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-config |
+|init| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-init |
+|log| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-log |
+|merge| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-merge |
+|pull| O |
+|push| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-push |
+|rebase| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-rebase |
+|remote| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-remote |
+|reset--hard| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-reset--hard |
+|status| O | https://github.com/GimHaLim/MyProject#--%EB%AA%85%EB%A0%B9%EC%96%B4-status |
+|tag| O | https://github.com/GimHaLim/MyProject#%EB%AA%85%EB%A0%B9%EC%96%B4---tag |
